@@ -91,7 +91,7 @@ public class Tools {
 	 */
 	public static int largestDivisor(int num) {
 
-		if (num > 2)
+		if (num > 3)
 			for (int i = num / 2; i >= 0; i--)
 				if (num % i == 0) return i;
 		return 1;
