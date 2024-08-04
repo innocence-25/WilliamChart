@@ -103,10 +103,10 @@ public class Tooltip extends RelativeLayout {
 
 		mWidth = -1;
 		mHeight = -1;
-		mLeftMargin = 0;
-		mTopMargin = 0;
-		mRightMargin = 0;
-		mBottomMargin = 0;
+		mLeftMargin = 1;
+		mTopMargin = 1;
+		mRightMargin = 1;
+		mBottomMargin = 1;
 		mOn = false;
 		mValueFormat = new DecimalFormat();
 	}
